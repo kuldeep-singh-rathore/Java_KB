@@ -1,0 +1,57 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Java and build tools
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+out/
+.gradle/
+
+# JavaScript tooling
+node_modules/
+.npm/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# RAG/index artifacts
+rag/data/
+rag/indexes/
+rag/vector-store/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated PDFs; keep topic directories via .gitkeep
+pdfs/**/*.pdf
+
+# Temporary files and logs
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
